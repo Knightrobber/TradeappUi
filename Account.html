@@ -1,0 +1,119 @@
+<html>
+    <body>
+        <div style="display:flex ;flex-direction:column;align-items: center;">
+            <div style="font-size:x-large;font-weight:bold">Sisir Reddy</div>
+            <div style="font-size:large;font-weight:500">Ph. - 9876543210</div>
+            <div style="font-size:large;font-weight:500">Account no. - 1111222233334444</div>
+            <div style="font-size:large;font-weight:500">Trading id. - 1111122222</div>
+            <div style="display:flex;flex-direction:row">
+                <button>My Balance: 1000</button>
+                <button onclick="toggleShares()">My Shares</button>
+            </div>
+            <div id="shareType" style="display: none;padding-top: 3%;">
+                <div style="font-size: x-large;font-weight: bold;"> My Shares</div>
+                <div class="share">
+                    <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Price</th>
+                        <th>% Change</th>
+                        <th>Trade volume</th>
+                    
+                    </tr>
+                    <tr >
+                        <td>JBL</td>
+                        <td>4000</td>
+                        <td>-30.1</td>
+                        <td>100000</td>
+                        <td><button onclick="toggleSell(9)"> Sell</button></td>
+                        <td>
+                            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                                <div class="9" style="display:none;">
+                                    <label for="fname">Quantity </label>
+                                    <input type="int" id="fname" style="width: 50;"><br><br>
+                                </div>
+                                <div class="9" style="display:none;">
+                                    <label for="price">Price </label>
+                                    <input type="int" id="price" style="width: 50;"><br><br>
+                                </div>
+                                <div class="9" style="display:none;"><button >Purchase</button></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>Portronics</td>
+                        <td>7300</td>
+                        <td>-20.5</td>
+                        <td>50000</td>
+
+                        <td><button onclick="toggleSell(10)"> Sell</button></td>
+                        <td>
+                            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                                <div class="10" style="display:none;">
+                                    <label for="fname">Quantity </label>
+                                    <input type="int" id="fname" style="width: 50;"><br><br>
+                                </div>
+                                <div class="10" style="display:none;">
+                                    <label for="price">Price </label>
+                                    <input type="int" id="price" style="width: 50;"><br><br>
+                                </div>
+                                <div class="10" style="display:none;"><button >Purchase</button></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <td>Logitech</td>
+                        <td>4500</td>
+                        <td>-15.5</td>
+                        <td>120000</td>
+
+                        <td><button onclick="toggleSell(11)"> Sell</button></td>
+                        <td>
+                            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                                <div class="11" style="display:none;">
+                                    <label for="fname">Quantity </label>
+                                    <input type="int" id="fname" style="width: 50;"><br><br>
+                                </div>
+                                <div class="11" style="display:none;">
+                                    <label for="price">Price </label>
+                                    <input type="int" id="price" style="width: 50;"><br><br>
+                                </div>
+                                <div class="11" style="display:none;"><button >Purchase</button></div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <td>HP</td>
+                        <td>3400</td>
+                        <td>-10.5</td>
+                        <td>12160</td>
+
+                        <td><button onclick="toggleSell(12)"> Sell</button></td>
+                        <td>
+                            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                                <div class="12" style="display:none;">
+                                    <label for="fname">Quantity </label>
+                                    <input type="int" id="fname" style="width: 50;"><br><br>
+                                </div>
+                                <div class="12" style="display:none;">
+                                    <label for="price">Price </label>
+                                    <input type="int" id="price" style="width: 50;"><br><br>
+                                </div>
+                                <div class="12" style="display:none;"><button >Purchase</button></div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                </table>
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </body>
+    <script src="Account.js"></script>
+</html>

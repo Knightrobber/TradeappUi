@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <div style="display:flex ;flex-direction:column;align-items: center;">
+            <div style="font-size:x-large;font-weight:bold">My Wallet</div>
+            <div style="font-size:large;font-weight:500">Balance: 10000</div>
+            <div style="display:flex;flex-direction:row">
+                <button onclick="toggleFunds(9)">Add Funds</button>
+                <button onclick="toggleFunds(10)">Release Funds</button>
+            </div>
+            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                <div class="9" style="display:none;">
+                    <label for="fname">Quantity </label>
+                    <input type="int" id="fname" style="width: 50;"><br><br>
+                </div>
+                <div class="9" style="display:none;">
+                    <label for="price">Price </label>
+                    <input type="int" id="price" style="width: 50;"><br><br>
+                </div>
+                <div class="9" style="display:none;"><button >Add</button></div>
+            </div>
+            <div style="display:flex;flex-direction: row;justify-content: center;padding-top: 20;">
+                <div class="10" style="display:none;">
+                    <label for="fname">Quantity </label>
+                    <input type="int" id="fname" style="width: 50;"><br><br>
+                </div>
+                <div class="10" style="display:none;">
+                    <label for="price">Price </label>
+                    <input type="int" id="price" style="width: 50;"><br><br>
+                </div>
+                <div class="10" style="display:none;"><button >Release</button></div>
+            </div>
+            
+        </div>
+    </body>"
+    <script src = "Wallet.js"></script>
+</html>
